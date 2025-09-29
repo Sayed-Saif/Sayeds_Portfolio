@@ -3,7 +3,7 @@ const contactFormEl = document.getElementById('contactForm');
 // const formStatus = document.getElementById('formStatus');
 
 
-const scriptURL = "https://script.google.com/macros/s/AKfycbyzrPfOxbf2JgN44u8e9DdeRjam3PMMuj5ijpPa5D5GCZZpS9SpCgN2VCEH9VPtFI5k/exec"; // Paste Apps Script Web App URL
+const scriptURL = ""; // Paste Apps Script Web App URL
 
 
 contactFormEl.addEventListener('submit', async (e) => {
