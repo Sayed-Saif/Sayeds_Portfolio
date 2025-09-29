@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayed's Tech</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <!-- Notiflix -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Sayed's Tech</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work-history">Work History</a></li>
+                <li><a href="#feedback">Client Voices</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Full-Stack Development That Drives Results</h1>
+            <p>At Sayed's Tech, I build modern, scalable, and high-performance web applications. From front-end design
+                to back-end systems, I deliver tailored solutions that help businesses grow, streamline operations, and
+                stand out online.</p>
+            <a href="#contact" class="hero-btn">
+                Get Started <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            </a>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero-bg.webp" alt="Developer Illustration">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Full-Stack Developer</h2>
+        <div class="heading-line"></div>
+        <div class="about-container">
+            <!-- Left -->
+            <div class="about-left">
+                <img src="images/profile-photo.webp" alt="Profile Photo" class="profile-photo">
+                <h3 class="profile-name">Sayed Saif Ahmad</h3>
+            </div>
+            <!-- Right -->
+            <div class="about-right">
+                <p>
+                    Skilled Full Stack Developer with expertise in HTML5, CSS3, JavaScript (ES6+), and Node.js.
+                    I have successfully delivered <strong>10+ projects</strong> with <strong>5-star client
+                        feedback</strong>.
+                    Experienced in integrating <strong>Razorpay payment gateway with authentication</strong>
+                    and implementing secure <strong>JWT-based authorization</strong>.
+                    I build responsive, cross-browser websites using modern frameworks like Bootstrap and Tailwind,
+                    focusing on UI/UX, API integration, and performance optimization to deliver fast, scalable,
+                    and engaging web solutions that help businesses grow.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="heading-line"></div>
+
+        <div class="skills-container">
+            <div class="skill">
+                <p><i class="fa-brands fa-html5"></i> HTML5</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--percent:95">95%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p><i class="fa-brands fa-css3-alt"></i> CSS3</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--percent:90">90%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p><i class="fa-brands fa-js"></i> JavaScript (ES6)</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--percent:85">85%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p><i class="fa-brands fa-node-js"></i> Node.js</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--percent:80">80%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p><i class="fa-brands fa-php"></i> PHP</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--percent:75">75%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p><i class="fa-solid fa-wind"></i> Tailwind</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--percent:85">85%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p><i class="fa-brands fa-bootstrap"></i> Bootstrap</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--percent:90">90%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p><i class="fa-solid fa-code"></i> jQuery</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--percent:70">70%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p><i class="fa-solid fa-plug"></i> REST API</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--percent:85">85%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p><i class="fa-solid fa-mobile-screen-button"></i> Media Query</p>
+                <div class="progress-bar">
+                    <div class="progress" style="--percent:80">80%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section (Vertical Timeline) -->
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="heading-line"></div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <div class="timeline-icon-fill"><i class="fa-solid fa-globe"></i></div>
+                </div>
+                <div class="timeline-content">
+                    <p>Designed, developed, and delivered <strong>20+ fully responsive, cross-browser
+                            compatible</strong> websites, managing the entire process from concept to deployment.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <div class="timeline-icon-fill"><i class="fa-solid fa-laptop-code"></i></div>
+                </div>
+                <div class="timeline-content">
+                    <p>Implemented intuitive, responsive UIs using <strong>HTML, CSS, JavaScript, Bootstrap</strong>
+                        ensuring optimal user experience.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <div class="timeline-icon-fill"><i class="fa-solid fa-database"></i></div>
+                </div>
+                <div class="timeline-content">
+                    <p>Developed server-side functionality using <strong>PHP</strong> with SQL databases; designed and
+                        managed Tables, Views, Procedures, Functions, Cursors, etc.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <div class="timeline-icon-fill"><i class="fa-solid fa-users"></i></div>
+                </div>
+                <div class="timeline-content">
+                    <p>Collaborated with clients to design intuitive UI/UX, resulting in a <strong>20% increase in user
+                            satisfaction</strong>.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <div class="timeline-icon-fill"><i class="fa-brands fa-git-alt"></i></div>
+                </div>
+                <div class="timeline-content">
+                    <p>Utilized <strong>Git</strong> for version control, code reviews, and CI workflows.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <div class="timeline-icon-fill"><i class="fa-solid fa-pencil-ruler"></i></div>
+                </div>
+                <div class="timeline-content">
+                    <p>Converted <strong>Figma UI/UX mockups</strong> into clean, maintainable code, delivering
+                        responsive layouts for desktop, tablet, and mobile.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <div class="timeline-icon-fill"><i class="fa-solid fa-plug"></i></div>
+                </div>
+                <div class="timeline-content">
+                    <p>Integrated <strong>REST APIs</strong> and implemented <strong>JWT-based authentication</strong>
+                        for <strong>login/signup forms</strong> using <strong>Node.js</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <div class="timeline-icon-fill"><i class="fa-solid fa-sheet-plastic"></i></div>
+                </div>
+                <div class="timeline-content">
+                    <p>Integrated <strong>Google Sheets API</strong> with PHP backend to securely collect and store form
+                        submissions, automating data handling and reporting workflows.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <div class="timeline-icon-fill"><i class="fa-solid fa-award"></i></div>
+                </div>
+                <div class="timeline-content">
+                    <p>Received commendations from clients for delivering visually appealing websites aligned with their
+                        vision.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <h2 class="section-title">Services</h2>
+        <div class="heading-line"></div>
+
+        <div class="carousel-wrapper">
+            <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+
+            <div class="services-carousel">
+                <div class="services-track">
+                    <!-- Cards will be dynamically added here via JS -->
+                </div>
+            </div>
+
+            <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+
+    <!--Work History Section-->
+    <section class="work-history-section" id="work-history">
+        <h2 class="section-title">Work History</h2>
+        <div class="heading-line"></div>
+
+        <div class="work-history-container" id="work-history-container">
+            <!-- Work cards will be dynamically added here -->
+        </div>
+
+        <div class="work-history-buttons">
+            <button id="work-show-more"><i class="fa-solid fa-eye"></i> Show More</button>
+            <button id="work-hide-more" style="display: none;">
+                <i class="fa-solid fa-eye-slash"></i> Hide</button>
+        </div>
+    </section>
+
+    <!-- ------------------- UNIVERSAL MODAL ------------------- -->
+    <div class="universal-modal" id="universal-modal">
+        <div class="universal-modal-content">
+            <span class="universal-close"><i class="fa-solid fa-xmark"></i></span>
+            <h3 class="universal-modal-title" id="universal-modal-title"></h3>
+            <p class="universal-modal-desc" id="universal-modal-desc"></p>
+        </div>
+    </div>
+
+
+    <!--Client Feedback-->
+    <section class="feedback" id="feedback">
+        <div class="section-header">
+            <h2 class="section-title">Voices of Trust</h2>
+            <div class="heading-line"></div>
+        </div>
+
+        <div class="feedback-container">
+            <!-- Illustration -->
+            <div class="feedback-image">
+                <img src="images/feedback.webp" alt="Feedback illustration">
+            </div>
+
+            <!-- Reviews -->
+            <div class="feedback-content">
+                <div class="review-box">
+                    <!-- <p class="review-text"></p> -->
+                    <div class="review-meta">
+                        <strong class="client-name"></strong>
+                        <!-- Platform name + dot instead of image -->
+                        <div class="platform-logo"></div>
+                    </div>
+                    <p class="review-text"></p>
+                    <div class="review-rating"></div>
+                </div>
+
+                <!-- Controls -->
+                <div class="feedback-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="pagination"></div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="heading-line"></div>
+
+        <div class="contact-container">
+            <!-- Image -->
+            <div class="contact-image">
+                <img src="images/contact-us.webp" alt="Contact Illustration">
+            </div>
+
+            <!-- Form -->
+            <div class="contact-form">
+                <form id="contactForm">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Subject">
+
+                    <label for="file">Upload File</label>
+                    <input type="file" id="file" name="file">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <!-- Form Handling JS -->
+    <script src="formhandling.js"></script>
+
+    <!-- Notiflix Alert JS -->
+    <script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.6/dist/notiflix-3.2.6.min.js"></script>
+
+
+
+</body>
+
+</html>

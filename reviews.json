@@ -1,0 +1,50 @@
+[
+  {
+    "review": "Outstanding frontend development work! The design was sleek, fully responsive, and delivered right on schedule.",
+    "name": "Rachel Green",
+    "platformName": "Fiverr",
+    "rating": 5
+  },
+  {
+    "review": "Excellent communication from start to finish. The frontend was delivered beautifully, exceeding our expectations in design and usability.",
+    "name": "Daniel Foster",
+    "platformName": "Fiverr",
+    "rating": 5
+  },
+  {
+    "review": "Fantastic work! The responsiveness is flawless, and replacing Bootstrap with custom CSS has made the site lighter, faster, and visually appealing. Highly satisfied!",
+    "name": "Isabella Clark",
+    "platformName": "Fiverr",
+    "rating": 5
+  },
+  {
+    "review": "Very professional with great communication skills. The backend APIs were smooth and well-documented.",
+    "name": "Ethan Parker",
+    "platformName": "Fiverr",
+    "rating": 4
+  },
+  {
+    "review": "Integrated Stripe payments seamlessly into our ecommerce app. Everything works perfectly and was delivered ahead of deadline.",
+    "name": "Amelia Wright",
+    "platformName": "Fiverr",
+    "rating": 5
+  },
+  {
+    "review": "Reliable and detail-oriented. Set up PayPal integration and explained everything clearly. Excellent experience.",
+    "name": "Liam Harris",
+    "platformName": "Fiverr",
+    "rating": 5
+  },
+  {
+    "review": "Built a secure REST API with JWT authentication. Great problem-solving and constant updates during the project.",
+    "name": "Chloe Mitchell",
+    "platformName": "Fiverr",
+    "rating": 5
+  },
+  {
+    "review": "SQL database structure was solid, but a few optimizations were missed. Still, the project was delivered on time.",
+    "name": "Ava Hassan",
+    "platformName": "Fiverr",
+    "rating": 4
+  }
+]

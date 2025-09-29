@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Foodies",
+    "image": "images/food-delivery.webp",
+    "desc": "Designed and developed a responsive restaurant website that provides a smooth and engaging user experience across all devices. The platform dynamically loads menu items from a JSON file, allowing customers to browse dishes, add them to their cart, adjust quantities, and view real-time order totals. A streamlined checkout process and a mobile-friendly navigation with a hamburger menu further enhance usability. Built with HTML, CSS, JavaScript, and JSON integration, the project highlights clean design, interactivity, and functionality tailored to modern customer needs."
+  },
+  {
+    "title": "Burger Hub",
+    "image": "images/burger-hub.webp",
+    "desc": "Created Burger Hub, a modern and responsive food delivery website built with HTML, CSS, and JavaScript, designed to deliver a smooth and engaging user experience across all devices. The site features a responsive navigation bar with a hamburger menu and includes essential sections like Home, Product, Promo, About, and Contact, along with interactive sections such as Our Chef, Best Burger, Big Burger, Popular Packages, Testimonials, Subscribe, and Photo Gallery. Styled with Google Fonts and enhanced with FontAwesome Icons, Burger Hub showcases a professional, visually appealing design that highlights products and promotions effectively."
+  },
+  {
+    "title": "Bite Station",
+    "image": "images/restaurent.webp",
+    "desc": "Bite Station is a fully responsive website designed to provide an engaging and seamless user experience across multiple devices. The site features a clear navigation structure with links to Home, Product, Promo, About, and Contact pages, ensuring easy access to all important sections. Key sections include Best Seller, Original Taste, Statistics, Testimonials, Subscribe, and Footer, each thoughtfully crafted to highlight content effectively and enhance user interaction. Each section is animated using JavaScript, so when a section comes into the viewport during scrolling, it appears smoothly, adding a dynamic and modern feel to the browsing experience. The landing page and all internal sections are optimized for responsiveness, providing a smooth experience on desktops, tablets, and mobile devices. This project demonstrates a strong focus on modern design principles, usability, animations, and a cohesive visual layout, making it a comprehensive showcase of front-end development skills."
+  },
+  {
+    "title": "Villa",
+    "image": "images/villa-agency.webp",
+    "desc": "This project is a fully responsive Villa, Hotel, and Apartment booking website designed to deliver a seamless user experience across multiple devices. It includes four pages—Home, Properties, Property Details, and Contact—with a clear navigation structure linking all pages. Each property listing displays its title, price, number of bedrooms and bathrooms, area, floor, parking availability, and features a Schedule a Visit button that activates the booking functionality when clicked, while the Property Details page provides comprehensive insights for each listing. Built using a combination of custom CSS, Bootstrap, and jQuery, the site ensures lightweight performance, smooth responsiveness, and a visually appealing design. The Contact section includes an interactive map and a fully functional contact form capturing full name, email, subject, and message, with backend integration for sending messages. This project showcases expertise in responsive design, detailed property presentation, user-friendly navigation, and practical front-end and back-end functionality."
+  },
+  {
+    "title": "Education Website",
+    "image": "images/edukate.webp",
+    "desc": "Education Website"
+  },
+  {
+    "title": "Fruits Vegetable Website",
+    "image": "images/organic.webp",
+    "desc": "Website"
+  },
+  {
+    "title": "Fluent Edge",
+    "image": "images/fluent-edge.webp",
+    "desc": "Fluent Edge Website"
+  },
+  {
+    "title": "Sayeds Tech",
+    "image": "images/sayeds-tech.webp",
+    "desc": "Sayeds Tech "
+  },
+  {
+    "title": "Weather App",
+    "image": "images/weather-app.webp",
+    "desc": "Weather Application"
+  }
+
+]

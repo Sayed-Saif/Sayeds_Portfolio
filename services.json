@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Front-End Development",
+    "image": "images/front-end-development.webp",
+    "desc": "Modern, responsive, and interactive websites are developed using HTML5, CSS3, Bootstrap, Tailwind CSS, JavaScript, jQuery, and media queries. Each interface is optimized for speed, accessibility, and SEO, ensuring it performs well across all devices and browsers. From simple landing pages to advanced dashboards, the focus is always on usability, conversion, and delivering a smooth user experience that supports business growth."
+  },
+  {
+    "title": "Back-End Development",
+    "image": "images/back-end-development.webp",
+    "desc": "Powerful and secure backend solutions are built using PHP and Node.js, designed to manage complex logic, process data efficiently, and integrate with third-party services. Every backend system is engineered for scalability, ensuring it can handle heavy loads without compromising performance. From custom APIs to user authentication systems and automation workflows, the backend is always reliable, flexible, and business-ready."
+  },
+  {
+    "title": "E-Commerce",
+    "image": "images/e-commerce-development.webp",
+    "desc": "Custom e-commerce platforms are developed to provide a seamless shopping experience for customers and efficient management tools for businesses. These solutions include dynamic product catalogs, shopping carts, and secure checkout systems, along with customer accounts, order tracking, and automated notifications. Integrated payment gateways such as Razorpay, PayPal, and Stripe ensure safe and smooth transactions worldwide. Each platform is mobile-friendly, secure, and designed to maximize sales and customer trust."
+  },
+  {
+    "title": "Server Configuration & Management",
+    "image": "images/server-config.webp",
+    "desc": "Reliable server environments are configured and managed to ensure websites and applications run with maximum performance and security. Expertise includes setting up and optimizing Apache and Nginx servers, installing SSL certificates for secure HTTPS connections, and fine-tuning configurations for stability and speed. Continuous monitoring, troubleshooting, and performance optimization keep servers safe and ensure uninterrupted service around the clock."
+  },
+  {
+    "title": "Website Hosting",
+    "image": "images/website-hosting.webp",
+    "desc": "Comprehensive hosting services are provided to keep websites online, secure, and performing at their best. Support includes domain registration and transfers with providers such as GoDaddy and Namecheap, hosting setup through Hostinger, Bluehost, and other platforms, and seamless site migration without downtime or data loss. Hosting solutions also include SSL setup, automated backups, and performance optimization, giving businesses the peace of mind that their websites are always fast, secure, and accessible."
+  },
+  {
+    "title": "REST API",
+    "image": "images/rest-api.webp",
+    "desc": "Custom REST APIs are created and integrated to connect websites, applications, and third-party services. Examples include Weather API for real-time data, Razorpay, PayPal, and Stripe APIs for secure payments, and Google Sheets API for collecting form data directly from HTML forms. This allows businesses to automatically store and organize leads, registrations, and submissions in structured spreadsheets for easy management. Every API solution is designed to be secure, scalable, and well-documented, ensuring smooth communication between systems and effortless future expansion."
+  },
+  {
+    "title": "Payment Integration",
+    "image": "images/payment-gateway.webp",
+    "desc": "Secure and reliable payment experiences are enabled through expert integration of gateways such as Razorpay, PayPal, and Stripe. Transactions are smooth, whether they involve one-time payments, subscriptions, or recurring billing. Multi-currency support, mobile optimization, and strong encryption ensure customers can pay with confidence, while businesses enjoy a hassle-free process that builds trust and boosts sales."
+  },
+  {
+    "title": "Authentication & Secuirity",
+    "image": "images/authentication.webp",
+    "desc": "Strong authentication systems and security practices are implemented to protect users and data. Solutions include traditional email/password logins, token-based authentication with JWT, OAuth2 systems, and social logins like Google or Facebook. Enhanced measures such as two-factor authentication (2FA), SSL enforcement, secure sessions, and encrypted data handling are applied to prevent vulnerabilities and ensure compliance with industry standards."
+  },
+  {
+    "title": "Database Solutions",
+    "image": "images/database-solutions.webp",
+    "desc": "Efficient and reliable databases are designed and managed to support smooth business operations. Using SQL databases such as MySQL and PostgreSQL, services include schema design, performance tuning, and handling large datasets without delays. Migration, backups, and high-availability strategies ensure data remains structured, secure, and always accessible. With properly optimized databases, websites and applications run faster, scale better, and remain dependable over time."
+  }
+]
